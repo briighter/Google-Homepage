@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GLOBAL STYLES */
+li {
+    font-family: Arial;
+}
+li:hover {
+    text-decoration: underline;
+}
+
+/* HEADER SECTION STYLE */
+.left-nav, .right-nav {
+    display: inline-block;
+}
+
+.left-nav {
+    position: relative;
+    left: 2em;
+    top: .5em;
+}
+
+.right-nav {
+    position: absolute;
+    right: 2em;
+    top: .5em;
+}
+
+.left-nav ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.75em;
+}
+
+.right-nav ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.75em;
+}
+
+/* MAIN SECTION */
+#google-logo {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 8em;
+}
+
+.search-bar-container {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 9em;
+    height: 48px;
+    width: 60%;
+    border: 1px solid lightgray;
+    border-radius: 5%/ 50%;
+    text-align: center;
+}
+
+.search-bar-container:hover {
+    box-shadow: 2px 3px 5px 1px lightgray;
+}
+
+#search-bar {
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    width: 86%;
+    position: relative;
+    top: 6px;
+}
+
+.search-buttons {
+    display: block;
+    position: relative;
+    top: 10em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    font-size: 0.85em;
+    border: none;
+    border-radius: 5%;
+    height: 40px;
+}
+
+#btn1 {
+    margin-right: 5px;
+}
+
+/* FOOTER SECTION */
+.footer-row {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    color: #5f6368;
+}
+
+.left-footer, .right-footer {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.left-footer ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.75em;
+}
+
+.right-footer {
+    position: absolute;
+    right: 0;
+}
+
+.right-footer ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 0.75em;
+}
